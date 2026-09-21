@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mada Academy | Learn Web Development</title>
+  <meta name="description" content="Learn HTML, CSS and JavaScript with project-based courses and mentors who review your code.">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#top">Mada<span class="logo__accent">Academy</span></a>
+
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#features">Features</a></li>
+          <li><a class="nav__link" href="#price">Pricing</a></li>
+          <li><a class="nav__link" href="#testimonials">Reviews</a></li>
+          <li><a class="nav__link" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--primary header__cta" href="#pricing">Get started</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow">New cohort starts in October</p>
+          <h1 class="hero__title">Launch your web development career</h1>
+          <p class="hero__text">
+            Build real projects, get your code reviewed by working developers,
+            and finish with a portfolio that employers can open in a browser.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn-primary" href="#pricing">Start learning</a>
+            <a class="btn btn--outline" href="#features">Explore features</a>
+          </div>
+        </div>
+
+        <img
+          class="hero__image"
+          src="Screenshot 2026-07-18 210112.png"
+          alt="A laptop showing lines of code"
+          width="520"
+          height="420">
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Everything you need to get job-ready</h2>
+          <p class="section__subtitle">A clear path from your first tag to your first pull request.</p>
+        </header>
+
+        <div class="features__grid">
+          <div class="feature-card">
+            <span class="feature-card__icon" aria-hidden="true">🧱</span>
+            <h3 class="feature-card__title">Solid foundations</h3>
+            <p class="feature-card__text">Semantic HTML, modern CSS and accessibility from day one.</p>
+          </div>
+
+          <div class="feature-card">
+            <span class="feature-card__icon" aria-hidden="true">🛠️</span>
+            <h3 class="feature-card__title">Project-based</h3>
+            <p class="feature-card__text">Ship a new project every week instead of watching slides.</p>
+          </div>
+
+          <div class="feature-card">
+            <span class="feature-card__icon" aria-hidden="true">👀</span>
+            <h3 class="feature-card__title">Code reviews</h3>
+            <p class="feature-card__text">Mentors comment on your code the same way a team would.</p>
+
+          <div class="feature-card">
+            <span class="feature-card__icon" aria-hidden="true">📱</span>
+            <h3 class="feature-card__title">Responsive design</h3>
+            <p class="feature-card__text">Make every page work on phones, tablets and desktops.</p>
+          </div>
+
+          <div class="feature-card">
+            <span class="feature-card__icon" aria-hidden="true">🐞</span>
+            <h3 class="feature-card__title">Debugging skills</h3>
+            <p class="feature-card__text">Learn to read errors and use DevTools like a professional.</p>
+          </div>
+
+          <div class="feature-card">
+            <span class="feature-card__icon" aria-hidden="true">💼</span>
+            <h3 class="feature-card__title">Career support</h3>
+            <p class="feature-card__text">Portfolio reviews, mock interviews and job-search coaching.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="pricing">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Simple, transparent pricing</h2>
+          <p class="section__subtitle">Pick a plan and switch or cancel whenever you want.</p>
+        </header>
+
+        <div class="pricing__grid">
+          <article class="pricing-card">
+            <h3 class="pricing-card__name">Starter</h3>
+            <p class="pricing-card__price">$0<span class="pricing-card__period">/month</span></p>
+            <ul class="pricing-card__list">
+              <li>Intro HTML &amp; CSS course</li>
+              <li>Community forum access</li>
+              <li>3 practice projects</li>
+            </ul>
+            <a class="btn btn--outline" href="#contact">Join for free</a>
+          </article>
+
+          <article class="pricing-card pricing-card--featured">
+            <h3 class="pricing-card__name">Pro</h3>
+            <p class="pricing-card__price">$29<span class="pricing-card__period">/month</span></p>
+            <ul class="pricing-card__list">
+              <li>All courses and projects</li>
+              <li>Weekly code reviews</li>
+              <li>Certificate of completion</li>
+            </ul>
+            <a class="btn btn--primary" href="#contact">Choose Pro</a>
+          </article>
+
+          <article class="pricing-card">
+            <h3 class="pricing-card__name">Team</h3>
+            <p class="pricing-card__price">$99<span class="pricing-card__period">/month</span></p>
+            <ul class="pricing-card__list">
+              <li>Up to 5 learners</li>
+              <li>Progress dashboard</li>
+              <li>Priority mentor support</li>
+            </ul>
+            <a class="btn btn--outline" href="#contact">Contact sales</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="testimonials">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">What our students say</h2>
+        </header>
+
+        <div class="testimonials__grid">
+          <figure class="testimonial">
+            <blockquote class="testimonial__quote">
+              <p>The weekly reviews taught me more than any tutorial. I landed my first internship in three months.</p>
+            </blockquote>
+            <figcaption class="testimonial__author">
+              Sara Ahmed
+              <span class="testimonial__role">Junior Front-End Developer</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote class="testimonial__quote">
+              <p>Debugging used to scare me. Now I open DevTools first and I know where to look.</p>
+            </blockquote>
+            <figcaption class="testimonial__author">
+              Omar Hassan
+              <span class="testimonial__role">Freelance Web Developer</span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <blockquote class="testimonial__quote">
+              <p>Every project went straight into my portfolio, and interviewers actually asked about them.</p>
+            </blockquote>
+            <figcaption class="testimonial__author">
+              Mona Khaled
+              <span class="testimonial__role">UI Developer</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <header class="section__header">
+          <h2 class="section__title">Have a question?</h2>
+          <p class="section__subtitle">Send us a message and we will reply within one business day.</p>
+        </header>
+
+        <form class="contact__form" action="#" method="post">
+          <div class="form__group">
+            <label class="form__label" for="name">Full name</label>
+            <input class="form__input" type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="email">Email address</label>
+            <input class="form__input" type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="form__group">
+            <label class="form__label" for="message">Message</label>
+            <textarea class="form__input" id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button class="btn btn--primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; 2026 Mada Academy. All rights reserved.</p>
+      <ul class="footer__links">
+        <li><a class="footer__link" href="#features">Features</a></li>
+        <li><a class="footer__link" href="#pricing">Pricing</a></li>
+        <li><a class="footer__link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
